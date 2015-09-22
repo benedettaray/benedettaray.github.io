@@ -1,0 +1,11 @@
+.contact{
+    font-size: 0.7rem;
+    text-align: center;
+    opacity: 0.5;
+}
+.contact ol{ width: 100% }
+.contact li{
+  width: 50%;
+  float: left;
+  display: inline-block;
+}

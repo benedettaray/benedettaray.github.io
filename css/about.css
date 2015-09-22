@@ -1,0 +1,38 @@
+#about > hgroup > div.left{
+    padding-top: 60px;
+    width: 550px;
+}
+#about > hgroup > div.left  > p{
+    width:100%;
+    color:#555;
+}
+#about > hgroup > div.right {
+    padding-top: 60px;
+    width: 340px;
+    margin-bottom: 60px;
+}
+#about img{
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
+}
+#about h3#slogan{
+    font-size: 1.5rem;
+    float: right;
+    text-transform: none;
+    width: 100%;
+    text-align: center;
+}
+#about > div > section{
+    margin-bottom: 60px;
+}
+#about, section:last-child{
+    margin-bottom: 0;
+}
+#about, section:first-child{
+    padding-top: 0px;
+}
+#slogan{
+    text-align: right;
+}

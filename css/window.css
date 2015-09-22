@@ -1,0 +1,82 @@
+html, body{
+  padding: 0;
+  margin: 0;
+}
+body{
+  width: 890px;
+  margin: 0 auto;
+  font-family: "Segoe UI", "Open Sans", serif;
+  color:#444;
+}
+.light{ font-family: "Segoe UI Light", "Open Sans Light", serif; }
+.bold{ font-family: "Segoe UI Bold", "Open Sans Bold", serif; }
+.small{ font-weight: 400; font-size: .7em; line-height: 1; color: #777;}
+/* additional text */
+.text-default { font-size: 0.875rem; }
+.text-accent, .text-enlarged { font-size: 1.1rem; }
+.text-secondary { font-size: 0.75rem; }
+.text-small { font-size: 0.625rem; }
+.text-dashed { border: 0; border-bottom: 1px gray dashed; display: inline; }
+/* transform */
+.lowercase { text-transform: lowercase; }
+.uppercase { text-transform: uppercase; }
+.capital { text-transform: capitalize; }
+/* abbreviation */
+abbr {
+    text-decoration: none;
+    border-bottom: 1px #999999 dotted;
+    cursor: help;
+    display: inline;
+}
+.address {
+    font-weight: 400;
+    font-style: normal;
+}
+.strong, b { font-weight: bold; }
+.inline{ display: inline;}
+.left{ float: left;}
+.right{ float: right; }
+h1,h2,h3,h4,h5,h6{ margin: .625rem 0;text-transform: uppercase;}
+h1{ font-size: 36px; }
+h2{ font-size: 30px; }
+h3{ font-size: 24px; }
+h4{ font-size: 18px; }
+h5{ font-size: 14px: }
+h6{ font-size: 12px; }
+p {
+      line-height: 1.4rem;
+      display: block;
+      -webkit-margin-before: 1em;
+      -webkit-margin-after: 1em;
+      -webkit-margin-start: 0px;
+      -webkit-margin-end: 0px;
+}
+a { text-decoration: none; color:#2086bf; }
+a:visited { color: #2086bf; }
+blockquote {
+    margin: .625rem 0;
+    padding: 0 0 0 .625rem;
+    border-left: 0.25rem #999999 solid;
+}
+blockquote.place-right {
+    border: 0;
+    border-right: 4px #999999 solid;
+    padding-right: .625rem;
+    text-align: right;
+}
+
+#move_abouts_content_left{
+  float: left;
+  width: 550px;
+}
+#move_aside_content_right{
+    float: right;
+    width: 340px;
+    text-align: right;
+}
+.clear{
+  clear:both;
+}
+#move_aside_content_right > aside{
+    margin-bottom: 50px;
+}
